@@ -1,0 +1,31 @@
+Pour intégrer Google Maps à ton site, suis ces étapes :
+
+1. *Créer une clé API Google Maps*
+- Va sur : [console.cloud.google.com](https://console.cloud.google.com/)
+- Crée un projet → Active l’API "Maps JavaScript API"
+- Obtiens ta *clé API*
+
+2. *Ajoute le script Google Maps dans ton HTML*
+
+```html
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=TA_CLE_API&callback=initMap">
+</script>
+```
+
+(Remplace `TA_CLE_API` par ta vraie clé)
+
+
+<div id="map" style="height: 400px; width: 100%;"></div>
+
+ onclick="alert('contactez Rafiki Ndaya sur whatsapp : +243971595551')"
+
+
+ ici on cuisine avec le coeur et on vous sert avec le sourire. 😊😊😊<br>
+                tu veux manger ? clique sur <b>Découvrir le menu</b> et fais-toi plaisir !<br>
+                Surtout, installe-toi, détends-toi... Rafiki'Ndaya s'occupe du reste 😉.
+
+border-radius: 50%;
+            border: 0.5px solid gold;
+            margin-left: 100px;
+            margin-right: 100px;
